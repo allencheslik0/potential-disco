@@ -1,9 +1,9 @@
 body {
-    font-family: R, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 section {
-    background-color: white;
+    background-color: #ffff;
     /* border: solid black 1px; */
 }
 
@@ -56,6 +56,7 @@ h1 {
 
 h2 {
     font-size: 50px;
+    font-family: cursive;
 }
 
 p {
@@ -100,7 +101,7 @@ a {
 .button {
     width: 200px;
     height: 60px;
-    background-color: rgb(207, 11, 11);
+    background-color: #4F878A;
     border-radius: 30px;
     text-align: center;
     font-size: 30px;
@@ -156,7 +157,8 @@ a {
 }
 
 .Kayak-Adventure {
-    width: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 125px;  
 }
 
@@ -165,16 +167,31 @@ a {
     align-items: center;
 }
 
+.Project-Card-A {
+    flex-direction: row;
+    width: 1118px;
+    height: 430px;
+    box-shadow: 5px 5px 20px #4F878A;
+    margin: 10px;
+}
+
 .Project-Card {
     width: 300px;
-    height: 500px;
-    box-shadow: 5px 5px 20px rgb(207, 11, 11);
+    height: 430px;
+    box-shadow: 5px 5px 20px #4F878A;
     margin: 10px;
 }
 
 .Project-Container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+.Project-Container1 {
+    display: Flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .Project-Image {
@@ -183,15 +200,41 @@ a {
     border-radius: 125px;
 }
 
-@media only screen and (max-width: 992px){
+.Project-Image1 {
+    margin-top: 25px;
+    margin-right: 8px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+@media only screen and (max-width: 1000px) {
     .Project-Container {
         display: flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
     ul {
         display: none;
     }
+    /* .hero-area {
+        display: flex;
+        flex-wrap: wrap;
+    } */
 }
+
+/* @media only screen and (max-width:768px) {
+    .Project-Container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul {
+        display: none;
+    }
+    .hero-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
 
 .alt-section {
     display: flex;
