@@ -1,23 +1,34 @@
 body {
-    font-family: 'Style Script', sans-serif;
+    font-family: R, sans-serif;
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
-.hero {
+/* .hero {
     background-color:  #06466b;
     height: 100vh;
     color: white;
     font-size: 40px;
+} */
+
+.hero {
+    position: relative;
+    height: 500px;
+    overflow:hidden;
+    background: url(forest_falls.jpg) no-repeat center;
+    background-size: cover;
 }
 
 footer {
-    height: 500px;
-    background-color: black;
+    /* height: 500px; */
+    /* background-color: #06466b; */
+    background: url(forest_falls.jpg); no-repeat center;
+    color: black;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -43,10 +54,34 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
     font-weight: 100;
     font-size: 30px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(207, 11, 11);
+    font-weight: bolder;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
 }
 
 .hero-area {
@@ -59,6 +94,7 @@ p {
 .hero-text {
    margin-left: 80px; 
    margin-bottom: 200px;
+   color: #ffff;
 }
 
 .button {
@@ -69,17 +105,33 @@ p {
     text-align: center;
     font-size: 30px;
     font-weight: 100;
-    padding-top: 5px;
+    padding-top: 15px;
     margin-top: 20px;
+    /* transition: background-color 300ms;
+    transition-duration: 300ms;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
 }
 
 .button:hover {
-    background-color: orange;
+    /* background-color: orange; */
+    opacity: 0.8;
+    transition: #ffff 300ms;
+    transition-duration: 300ms;
+    transition-property: #ffff;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
 }
 
 .button:active {
     background-color: #a9a9a9;
     color: #808080;
+    /* transition: background-color 300ms;
+    transition-duration: 300ms;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
 }
 
 .social-media {
@@ -90,8 +142,79 @@ p {
    height: 80px; 
    margin: 30px;
 }
-.social-size {
+
+.socialmedia-size {
     margin: 20px;
     display: flex;
     
 }
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.Kayak-Adventure {
+    width: 300px;
+    border-radius: 125px;  
+}
+
+.actionshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.Project-Card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(207, 11, 11);
+    margin: 10px;
+}
+
+.Project-Container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Project-Image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+@media only screen and (max-width: 992px){
+    .Project-Container {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    ul {
+        display: none;
+    }
+}
+
+.alt-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-image {
+    width: 250px;
+    border-radius: 125px;
+    margin-top: 25px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-box {
+  box-sizing: content-box;
+  width:fit-content;
+  height:fit-content;
+  flex-wrap: wrap;  
+}
+
+
