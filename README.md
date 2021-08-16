@@ -5,6 +5,7 @@
 
 ## Screenshot
 
+![](images/screenshot.png)
 
 ## Table of Contents
 * [General Info](#general-information)
