@@ -5,7 +5,7 @@
 
 ## Screenshot
 
-> ![](screenshot.png)
+> ![Screenshot](https://user-images.githubusercontent.com/85700458/129500612-f7b8b669-8f6e-42b5-8833-d2d716331113.PNG)
 
 ## Table of Contents
 * [General Info](#general-information)
