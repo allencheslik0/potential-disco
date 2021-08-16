@@ -1,11 +1,11 @@
 # potential-disco
 > Create a working Portfolio by using existing HTML knowledge and implementing CSS. 
-> Live demo [_here_] (https://allencheslik0.github.io/HTML-HW-1/).
+> Live demo (https://allencheslik0.github.io/HTML-HW-1/).
 
 
 ## Screenshot
 
-![](images/screenshot.png)
+> ![](images/screenshot.png)
 
 ## Table of Contents
 * [General Info](#general-information)
