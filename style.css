@@ -59,6 +59,10 @@ h2 {
     font-family: cursive;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 p {
     margin: 0;
     font-weight: 100;
@@ -108,15 +112,11 @@ a {
     font-weight: 100;
     padding-top: 15px;
     margin-top: 20px;
-    /* transition: background-color 300ms;
-    transition-duration: 300ms;
-    transition-property: background-color;
-    transition-timing-function: ease;
-    transition-delay: 0s; */
+   
 }
 
 .button:hover {
-    /* background-color: orange; */
+
     opacity: 0.8;
     transition: #ffff 300ms;
     transition-duration: 300ms;
@@ -128,11 +128,6 @@ a {
 .button:active {
     background-color: #a9a9a9;
     color: #808080;
-    /* transition: background-color 300ms;
-    transition-duration: 300ms;
-    transition-property: background-color;
-    transition-timing-function: ease;
-    transition-delay: 0s; */
 }
 
 .social-media {
@@ -157,9 +152,10 @@ a {
 }
 
 .Kayak-Adventure {
-    width: 250px;
-    height: 250px;
-    border-radius: 125px;  
+    width: 260px;
+    height: 525px;
+    object-fit: cover;
+    /* border-radius: 125px;   */
 }
 
 .actionshot-container {
@@ -189,23 +185,35 @@ a {
 }
 
 .Project-Container1 {
-    display: Flex;
-    justify-content: space-around;
-    text-align: center;
+    display:flexbox;
+    justify-content: space-between;
+    text-align: match-parent;
 }
 
 .Project-Image {
     margin-top: 25px;
     width: 250px;
-    border-radius: 125px;
+    /* border-radius: 125px; */
 }
 
 .Project-Image1 {
     margin-top: 25px;
     margin-right: 8px;
+    width: 100%;
+    height: 100%;
+    /* object-fit:cover; */
+    /* width: 250px;
+    height: 250px; */
+    /* border-radius: 125px; */
+}
+
+
+
+.Project-Image2 {
+    margin-top: 25px;
     width: 250px;
-    height: 250px;
-    border-radius: 125px;
+    object-fit: cover;
+    /* border-radius: 125px; */
 }
 
 @media only screen and (max-width: 1000px) {
